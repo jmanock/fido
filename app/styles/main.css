@@ -1,1 +1,36 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+  font-family:'Open Sans';
+}
+#navBar{
+  border-left:1px solid #888888;
+  border-top:1px solid white;
+  background-color:white;
+}
+.navbar{
+  margin-top:50px;
+  height:100px;
+  -webkit-box-shadow:0 13px 6px -5px #888888;
+  -moz-box-shadow:0 13px 6px -5px #888888;
+  box-shadow:0 13px 6px -5px #888888;
+}
+#left, #right{
+  z-index:-1;
+  top:0;
+  bottom:0;
+  width:55px;
+  height:;
+  background:#eaeaea;
+  position:fixed;
+  box-shadow:6px 0 15px -4px #888888, -6px 0 8px -4px #888888;
+}
+#left{
+  left:0;
+}
+#right{
+  right:0;
+}
+#about{
+  margin-left:70px;
+  margin-top:100px;
+}
