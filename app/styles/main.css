@@ -14,6 +14,15 @@ body{
   -moz-box-shadow:0 13px 6px -5px #888888;
   box-shadow:0 13px 6px -5px #888888;
 }
+aside{
+  position:fixed;
+  right:20px;
+  top:20px;
+}
+.fa{
+  color:#339999;
+  font-size:1.3em !important;
+}
 #left, #right{
   z-index:-1;
   top:0;
