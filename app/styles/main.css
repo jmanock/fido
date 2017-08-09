@@ -58,13 +58,19 @@ aside > .fa{
   margin-right:70px;
   margin-bottom:150px;
 }
-#about > h5{
+#about > h3{
+  color:#40568f;
+  font-weight:bold;
   text-align:center;
 }
 .team{
-  float:left;
+  float:right;
   border-radius:20px;
   margin-right:10px;
+}
+.bruce{
+  float:left;
+  margin-left:10px;
 }
 footer{
   width:100%;
