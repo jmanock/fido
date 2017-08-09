@@ -63,6 +63,35 @@ aside > .fa{
   font-weight:bold;
   text-align:center;
 }
+#blog{
+  margin-left:70px;
+  margin-right:70px;
+  margin-top:70px;
+}
+#blog > section > date{
+  background-color:#339999;
+  color:white;
+  font-size:1.2em;
+}
+#blog > section > img{
+  float:right;
+}
+#blog > section > h3{
+  background-color:#40568f;
+  color:white;
+  font-weight:bold;
+}
+#blog > section > h4{
+  font-weight:bold;
+}
+#blog > section > p{
+  color:#888888;
+  font-size:1.1em;
+}
+.links{
+  color:#339999;
+  font-weight:bold;
+}
 .team{
   float:right;
   border-radius:20px;
